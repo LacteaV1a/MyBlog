@@ -123,7 +123,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 EMAIL_HOST = 'smtp.mail.ru' 
 EMAIL_HOST_USER = 'lostarkdima1@mail.ru' 
-EMAIL_HOST_PASSWORD = 'm1e2n3t4o5s6' 
+EMAIL_HOST_PASSWORD = '' 
 EMAIL_PORT = 2525 
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'lostarkdima1@mail.ru'
