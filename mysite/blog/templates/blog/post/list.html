@@ -16,8 +16,8 @@
                     {{ tag.name }}
                 </a>
             {% if not forloop.last %}, {% endif %}
+            {% endfor %}
         </p>
-    {% endfor %}
         <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
         {{ post.body|truncatewords:30|linebreaks }}
     {% endfor %}
